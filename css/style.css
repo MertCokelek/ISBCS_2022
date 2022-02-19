@@ -1,0 +1,190 @@
+body{
+	margin:0;
+	padding:0;
+	background:#F2F2F2;
+	text-align:center;
+	color:#555;
+}
+/* 
+body a{
+	text-decoration: none;
+	color:#555;
+	font-weight:bold;
+} 
+*/
+body a{
+	color: #2c87f0;
+	text-decoration: underline;
+	font-weight:bold;
+}
+body a:hover{
+	color: #4B95E9;
+	text-decoration: underline;
+}
+p, h1, h2, h3, h4{
+	margin:1em 0;
+	padding:0;
+}
+h1{font-size:140%;}
+h2{
+	font-size:14px;
+	color:#FDA11C;
+}
+h3{
+	font-size:11px;
+	color:#696969;
+	font-weight:normal;
+}
+h4{font-size:100%;}
+table, td, select, input, textarea, li{
+	font: 100% Tahoma, Arial, Helvetica, sans-serif;	
+}
+img{border:0;}
+/* ---------------------------------- container ---------------------------------- */
+#container{
+	margin:0 auto;
+	text-align:justify;
+	width:800px;
+	background:#fff;
+	margin-top:1em;
+}
+/* ---------------------------------- logotip ---------------------------------- */
+#logotip{
+	position:relative;
+	height:20px;
+	padding: 10px;
+}
+
+#logo a{
+	display:block;
+	height:41px;
+}
+/* ---------------------------------- header ---------------------------------- */
+#header{
+	position:relative;
+	height:330px;
+	width: 800px;
+	margin-left: 17px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background:url(../images/library_isbcs_final.jpg) no-repeat;
+}
+	
+#header h1{
+	position:center;
+	font-family: Tahoma;
+	font-size: 20px;
+}
+
+#header .text{
+	position:relative;
+	left:3px;
+	top: 323px;
+	font-family: Tahoma;
+	font-size: 11px;
+	visibility:hidden;
+}
+
+#header:hover .text {
+visibility:visible;
+}
+
+/* ---------------------------------- navigation ---------------------------------- */
+div#navlist {
+	display: block;
+	margin: 0;
+	padding: 0;	
+	vertical-align: middle;
+	list-style:none;
+	width: 200px;
+	font-weight:bold;
+}
+div#navlist li a {
+	text-decoration: none;
+	font-weight:bold;
+	display: block;
+	padding: 0.5em 0em 0.2em 1em;
+	border-width: 1px;
+	border-color: #ffe #fff #E5E5E5 #fff;
+	border-style: solid;
+	height:20px;
+	color: #777;
+	text-decoration: none;
+	background:#FFF;
+	list-style:url(../images/01_21.gif) none;
+}
+div#navlist li#active a {
+text-decoration: none;
+font-weight:bold;
+	color: #4B95E9;
+	background-color: #EFEFEF;
+	height:20px;
+	list-style:url(../images/01_21.gif) none;
+}
+div#navlist li a:hover, div#navlist li#active a:hover {
+text-decoration: none;
+font-weight:bold;
+	color: #4B95E9;
+	background-color: #EFEFEF;
+	text-decoration: underline;
+	height:20px;
+	list-style:url(../images/01_18.gif) none;
+}
+/* ---------------------------------- main ---------------------------------- */
+#main{
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	vertical-align: top;
+	
+}
+.main_nav {
+	vertical-align: top;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#main_text{
+	vertical-align:top;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;	
+}
+
+#logos_text{
+	vertical-align:top;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;	
+}
+#logos_text h2{
+	color: #555555;
+}
+
+#head_main {
+	margin-left: 50px;
+	margin-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+/* ---------------------------------- footer ---------------------------------- */
+#footer{
+	position:relative;
+	clear:both;
+	text-align:center;
+	color:#fff;
+	background-color: #454545;
+	height:20px;
+	font-size:10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.footer_text {
+	color: #FFFFFF;
+	font-weight:bold;
+	text-align:center;
+	margin-top: 2px;
+	padding-top: 2px;	
+}
